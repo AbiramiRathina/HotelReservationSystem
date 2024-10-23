@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="236dp">
+
+            <TextView
+                android:id="@+id/il"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/hotel"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:hint="Hotel"
+                android:textAlignment="center"
+                android:textColor="#6f6f6f"
+                android:textSize="28sp" />
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Name:"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/nameValue"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:hint="No item added"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Price:"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/priceValue"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:hint="No item added"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Location:"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/locationValue"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+                    android:hint="No item added"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/stars"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Stars:"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/starsValue"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+                    android:hint="No item added"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/book"
+                android:backgroundTint="#A9A9A9"
+                android:text="book Me"
+                android:textColor="@color/black">
+
+            </Button>
+        </TableLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
