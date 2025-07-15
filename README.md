@@ -7,7 +7,7 @@ the list of hotels and as a user the person can view the listed hotels and can b
 hotel. Both the admin and the user are provided with different login pages to facilitate
 secured access to the functions of the application. The admin/user can rechange the
 password on clicking the forgot password button. The user can sign out from the
-application when he is done using the ap
+application when he is done using the app.
 
 User UI
 ----
