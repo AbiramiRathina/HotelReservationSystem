@@ -1,7 +1,6 @@
 # Hotel Reservation System in Java
 The Online Hotel Booking System is a project implemented for allowing users to
-book hotels. It provides people all over the world with an easy and fast way to book
-hotel rooms online. The user can log onto the application using their existing
+book hotels. The user can log onto the application using their existing
 account. Otherwise the user can create an account by giving the necessary details. After creation of the account, the user can now log into the application. The user can
 register either as an admin or an user. As an admin the person can add new hotels to
 the list of hotels and as a user the person can view the listed hotels and can book a
